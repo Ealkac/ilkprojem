@@ -8,16 +8,40 @@ body {
 header {
     background: #FF5733;
     color: #FFF;
+    background-size: 30;
+    opacity: 0.9;
     padding: 1em 0;
     text-align: center;
+    justify-content: center; /* Resmi yatayda ortalar */
+    align-items: center; /* Resmi dikeyde ortalar */
+    overflow: hidden; /* Resmin taşmasını engeller */
 }
+
+
+
 
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
     padding: 0;
 }
 
 nav ul li a {
-    display: inline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
     margin: 0 15 px;
 }
+
+nav i {
+    margin: 8px;
+
+}
+
+#anasayfa {
+    margin-left: 10px;
+}
+
